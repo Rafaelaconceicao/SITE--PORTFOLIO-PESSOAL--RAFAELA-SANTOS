@@ -1,37 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Meu portfólio</title>
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<script src="script.js" defer></script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-	
 	<header>
+		<div class="interface">
+			<section class="logotipo-cabecalho">
+				<img src="assets/Logotipo Rafaela Santos em Azul e Dourado.png" alt="Logotipo de Rafaela Santos">
+			</section>
 
-      <div class="interface"></div>
-
-				<section class="logotipo-cabecalho">
-					<img src="" alt="Logotipo do site">
-				</section>
-
-				<nav class="menu-desktop">
-					<ul>
-						<li><a href="#">Início</a></li>
-						<li><a href="#">Sobre mim</a></li>
-						<li><a href="#">Habilidades</a></li>
-						<li><a href="#">portfólio</a></li>
-						<li><a href="#"><button>Contato</button></a></li>
-			
-					</ul>
-
-				</nav>
-
+			<nav class="menu-desktop">
+				<ul>
+					<li><a href="#inicio">Início</a></li>
+					<li><a href="#sobre-mim">Sobre mim</a></li>
+					<li><a href="#habilidades">Habilidades</a></li>
+					<li><a href="#portfolio">Portfólio</a></li>
+					<li><button type="button" data-contato>Contato</button></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
+
+	<main>
+		<section class="hero" id="inicio">
+			<div class="interface">
+				<div class="img-hero">
+					<img src="assets/Foto_rafaela.png" alt="Retrato de Rafaela Santos">
+				</div>
+
+				<div class="txt-hero">
+					<h1>Da arquitetura da informação ao código.</h1>
+					<p>
+						Bibliotecária e estudante de desenvolvimento de sistemas. Transformo organização da informação em interfaces modernas, bancos de dados bem estruturados e código limpo.
+					</p>
+					<button type="button" data-contato>Entre em Contato</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="sobre-mim" id="sobre-mim">
+			<div class="interface">
+
+				<div class="txt-sobre">
+
+					<h1 class="titulo-section">Sobre <span>mim</span></h1>
+					<p>
+						Olá! Sou a Rafaela Santos, desenvolvedora Full Stack e bibliotecária. Esta minha trajetória torna-me apaixonada por estruturar informações complexas e traduzi-las em soluções digitais acessíveis através do código. Atuo no desenvolvimento de ponta a ponta, com uma base sólida em estruturação de dados usando SQL e evoluindo continuamente na construção de interfaces dinâmicas com React. O meu objetivo é unir arquitetura inteligente de dados, interfaces intuitivas e código limpo para construir experiências que agreguem valor real. Sou detalhista, focada na qualidade da entrega e sempre pronta para o próximo desafio técnico.
+					</p>
+
+					<div class="btn-redes">
+						<a href="https://www.instagram.com/rafaela663006?psln=bG10eXlscWFmM3gz" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/rafaela-santos-5657451ab?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+						<a href="https://github.com/Rafaelaconceicao" aria-label="GitHub"><i class="bi bi-github"></i></a>
+					</div>
+
+
+				</div>
+
+				<div class="img-sobre">
+					<img src="assets/foto_sobremim.png" alt="Foto de Rafaela Santos">
+				</div>
+			</div>
+
+		</section>
+
+		<section class="skills" id="habilidades">
+			<div class="interface">
+				<h1 class="titulo-section">Minhas <span>especialidades</span></h1>
+
+				<article>
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-chart-column" aria-hidden="true"></i>
+							<h2>Análise e organização de dados</h2>
+						</div>
+						<p>Utilização do Microsoft Excel para organização, tratamento, controle e análise de dados e informações.</p>
+					</div>
+
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-database" aria-hidden="true"></i>
+							<h2>Modelagem e gerenciamento de banco de dados</h2>
+						</div>
+						<p>Criação e organização de bancos de dados para armazenamento, estruturação e recuperação de informações.</p>
+					</div>
+
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-code" aria-hidden="true"></i>
+							<h2>Desenvolvimento web</h2>
+						</div>
+						<p>Criação de páginas e interfaces web utilizando HTML, CSS e JavaScript.</p>
+					</div>
+
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-cloud-arrow-up" aria-hidden="true"></i>
+							<h2>Gestão de repositórios digitais</h2>
+						</div>
+						<p>Utilização de plataformas para organização, gerenciamento, armazenamento e disseminação da produção intelectual.</p>
+					</div>
+
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-book-open" aria-hidden="true"></i>
+							<h2>Sistemas de gerenciamento de bibliotecas</h2>
+						</div>
+						<p>Utilização de sistemas informatizados para gerenciamento de acervos, catalogação, circulação e recuperação da informação.</p>
+					</div>
+
+					<div class="box-skills">
+						<div class="icon-skills">
+							<i class="fa-solid fa-book-bookmark" aria-hidden="true"></i>
+							<h2>Gestão de bibliotecas digitais</h2>
+						</div>
+						<p>Conhecimento de ambientes digitais para organização, acesso, consulta e disseminação de conteúdos informacionais.</p>
+					</div>
+				</article>
+
+				<div class="btn contato">
+					<button type="button" data-contato>Entre em contato</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="interface">
+
+				<h1 class="titulo-section">Meu <span>portfólio</span></h1>
+				<p>Conheça meus projetos!</p>
+
+				<article class="portfolio-conteiner">
+
+					<a href="https://tabudaonline.vercel.app/" target="_blank">
+						<div class="portfolio-box projeto01">
+							<div class="infor-portfolio">Projeto 01</div>
+						</div>
+					</a>
+
+					<a href="https://projetositemaissaude.vercel.app/" target="_blank">
+						<div class="portfolio-box projeto02">
+							<div class="infor-portfolio">Projeto 02</div>
+						</div>
+					</a>
+
+					<a href="https://sitecadastroclientesbr.vercel.app/index.html" target="_blank">
+						<div class="portfolio-box projeto03">
+							<div class="infor-portfolio">Projeto 03</div>
+						</div>
+					</a>
+
+				</article>
+			</div>
+		</section>
+
+		<section class="contato" id="contato">
+			<div class="interface">
+
+				<div class="txt-contato">
+					<h1 class="titulo-section">Entre em contato</h1>
+					<p><i class="bi bi-envelope-at" aria-hidden="true"></i> <a href="mailto:conceicaorafaela915@gmail.com">conceicaorafaela915@gmail.com</a></p>
+				</div>
+
+				<form id="form-contato" action="mailto:conceicaorafaela915@gmail.com" method="post" enctype="text/plain">
+					<input type="text" name="nome" id="nome" placeholder="Seu nome completo" autocomplete="name" required>
+					<input type="email" name="email" id="email" placeholder="Seu melhor e-mail" autocomplete="email" required>
+					<div class="tel-proj">
+						<input type="tel" name="telefone" id="telefone" placeholder="Seu WhatsApp" autocomplete="tel">
+						<input type="text" name="projeto" id="projeto" placeholder="O que você quer criar?">
+					</div>
+					<textarea name="mensagem" id="mensagem" placeholder="Fale mais sobre sua ideia" required></textarea>
+
+					<div class="btn-enviar">
+						<input type="submit" value="Enviar mensagem">
+					</div>
+				</form>
+			</div>
+			
+
+		</section>
+	</main>
+	
 </body>
 </html>

@@ -45,13 +45,19 @@ header > .interface {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-left: 1.5%;
+}
+
+.logotipo-cabecalho {
+	flex: 0 0 auto;
 }
 
 .logotipo-cabecalho img {
 	display: block;
-	width: 64px;
-	height: 64px;
+	width: 80px;
+	height: 80px;
 	object-fit: contain;
+	filter: drop-shadow(0 2px 8px rgba(217, 119, 6, 0.3));
 }
 
 header nav.menu-desktop ul {
@@ -290,6 +296,12 @@ section.skills {
 	header > .interface {
 		flex-direction: column;
 		gap: 8px;
+		padding-left: 4%;
+	}
+
+	.logotipo-cabecalho img {
+		width: 112px;
+		height: 112px;
 	}
 
 	header nav.menu-desktop ul {
